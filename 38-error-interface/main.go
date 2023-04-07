@@ -18,6 +18,6 @@ func main() {
 	if e == nil {
 		fmt.Println(result)
 	} else {
-		fmt.Print(e)
+		fmt.Print(e.Error())
 	}
 }

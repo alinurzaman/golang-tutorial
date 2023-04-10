@@ -6,6 +6,7 @@ type Address struct {
 	City, Province, Country string
 }
 
+// pointer function to prevent change value in variable
 func ChangeCountryToIndonesia(address *Address) {
 	address.Country = "Indonesia"
 }

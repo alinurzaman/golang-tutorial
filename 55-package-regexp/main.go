@@ -12,6 +12,6 @@ func main() {
 	fmt.Println(regex.MatchString("api"))
 	fmt.Println(regex.MatchString("aDi"))
 
-	search := regex.FindAllString("ali alo aka api ani are", -1)
+	search := regex.FindAllString("ali alo aka api budi are", -1)
 	fmt.Println(search)
 }
